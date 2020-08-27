@@ -1,0 +1,123 @@
+{% load static %}<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{% static '/main.css' %}">
+  <title>{% block title %}Honeypot App{% endblock %}</title>
+</head>
+<body>
+<!-- Loading effect script-->
+<script>
+function showFunction(){
+  document.getElementById("loader").style.display = "block";
+  document.getElementById("overlay").style.display = "block";
+  document.getElementById("text").style.display = "block";
+  document.getElementById("text2").style.display = "block";
+}
+</script>
+<!-- Navbar-->
+
+  <nav class="navbar navbar-expand-sm  navbar-dark" style="background-color:#33353d" >
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link"  href="{% url 'home' %}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="{% url 'deploy_honeypot' %}">Deployment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="{% url 'iot_honeypots' %}">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="{% url 'about_index' %}">Honeypots</a>
+          </li>
+        </ul>
+       <div class="container">  <!-- User login controls-->
+         {% if user.is_authenticated %} 
+         <a class="nav-link" style="float: right;" href="{% url 'profile' %}">Profile</a> 
+         <a class="nav-link" style="float: right;" href="{% url 'logout' %}">Logout</a>
+         {% else %}
+        <a class="nav-link" style="float: right;" href="{% url 'register' %}">Register</a>
+        <a class="nav-link" style="float: right;" href="{% url 'login' %}">Login</a>
+        {% endif %}
+       </div>
+      </div> 
+    </div>
+  </nav>
+
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="/static/img/video3.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 align-items-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12">
+              <div class="card mb-4">
+                <div class="card-body">
+      
+                  {% if messages %}
+                  {% for message in messages%}
+                  <div class="alert alert-{{ message.tags}} "> 
+                    {{ message }}
+                  </div>
+                  {% endfor %}
+                  {% endif%}
+      
+                  {% block content %}
+                  
+                  {% endblock %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">This is a IoT Honeypot project, developed for learning and testing purposes only, do not attempt to use it in unsecure environment. All Honeypots used here can be found at <a href=https://github.com>GitHub</a></p>
+        </div>
+
+        <div class="col-md-4 col-sm-6" style="margin-left: 15%;">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="{% url 'guide' %}">Guide</a></li>
+            <li><a href="https://www.linkedin.com/in/krzysztof-torebko-5739b9123/">Contact</a></li>
+            <li><a href="https://github.com/wloczykiju/IoT-Honeypot-Web-App/">Contribute</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+       <a href="#">Krzysztof Torebko</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="linkedin" href="https://www.linkedin.com/in/krzysztof-torebko-5739b9123/"><i class="fa fa-linkedin"></i></a></li>  
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+</body>
+</html>

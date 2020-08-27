@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+  <table class="table table-dark table-hover" >
+    <thead>
+      <tr>
+        <th scope="col">IOT Honeypot</th>
+        <th scope="col">Name</th>
+        <th scope="col">Author</th>
+        <th scope="col">See Logs</th>
+        <th scope="col">Visit Honeypot</th>
+        <th scope="col">GitHub</th>
+        <th scope="col">Uninstall</th>
+      </tr>
+    </thead>
+    <tbody>
+   <!-- HoneyThing  -->   
+      <tr>
+        <td><img src="/static/img/img2.png" alt="HoneyThing" style="width:100px;"></td>
+        <td>HoneyThing</td>
+        <td>Ömer Erdem</td>
+        <td>   
+          <form method="post" action="{% url 'get_logs' %}"> 
+          {% csrf_token %}
+          <button type="submit" class="btn btn-dark"  name="HoneyThingLogs">Show Logs</button>
+         </form>
+        </td>   <!-- Links to internal and external addresses-->
+        <td><a href="http://{{ ipaddress }}:80" class="btn btn-outline-success" role="button">Honeypot</a></td>
+        </td>
+        <td><a href="https://github.com/omererdem/honeything" class="btn btn-dark" role="button">See on Github</a></td>
+        <td><form method="post" action="{% url 'get_logs' %}"> 
+          {% csrf_token %} <button type="submit" class="btn btn-danger"  name="uninstallHoneything">Uninstall</button></form></td>
+      </tr>
+<!-- Telnet-Honeypot  -->
+      <tr>
+        <td><img src="/static/img/img3.png" alt="Telnet-Honeypot" style="width:100px;"></td>
+        <td>Telnet-IoT</td>
+        <td>Phype - ( Github )</td>
+        <td>   <form method="post" action="{% url 'get_logs' %}"> 
+          {% csrf_token %}
+          <button type="submit" class="btn btn-dark" name="PhypeLogs">Show Logs</button>
+         </form></td>
+         <td><a href="http://{{ ipaddress }}:8090" class="btn btn-outline-success" role="button">Honeypot</a></td>
+        </td>
+        <td><a href="https://github.com/Phype/telnet-iot-honeypot" class="btn btn-dark" role="button">See on Github</a></td>
+        <td><form method="post" action="{% url 'get_logs' %}"> 
+          {% csrf_token %} <button type="submit" class="btn btn-danger"  name="uninstallTelnet">Uninstall</button></form></td>
+      </tr>
+<!-- Kako  -->
+      <tr> 
+        <td><img src="/static/img/img4.png" alt="Kako" style="width:100px;"></td>
+        <td>Kako</td>
+        <td>Peter Adkins</td>
+        <td>   <form method="post" action="{% url 'get_logs' %}">     
+          {% csrf_token %}
+          <button type="submit" class="btn btn-dark" name ="KakoLogs">Show Logs</button>
+        </form></td>
+        <td><a href="http://{{ ipaddress }}:8080" class="btn btn-outline-success" role="button">Honeypot</a></td>
+      </td>
+      <td><a href="https://github.com/darkarnium/kako" class="btn btn-dark" role="button">See on Github</a></td> 
+      <td><form method="post" action="{% url 'get_logs' %}"> 
+        {% csrf_token %}  <button type="submit" class="btn btn-danger"  name="uninstallKako">Uninstall</button></form> </td>
+      </tr>
+<!-- IOT Honeypot - not working - closing session -->
+      <tr> 
+        <td><img src="/static/img/img1.png" alt="IOT Honeypot" style="width:100px;"></td>
+        <td>IoT - Honeypot</td>
+        <td>Anouar Ben Saad</td>
+        <td>   <form method="post" action="{% url 'get_logs' %}">     
+          {% csrf_token %}
+          <button type="button" class="btn btn-dark" name ="IotHoneypotLogs">Not available</button>
+        </form></td>
+        <td><a href="#" class="btn btn-outline-success" role="button">Not running</a></td>   
+      </td>
+      <td><a href="https://github.com/anouarbensaad/honeypot-iot" class="btn btn-dark" role="button">See on Github</a></td>
+      <td><form method="post" action="{% url 'get_logs' %}"> 
+        {% csrf_token %}  <button type="submit" class="btn btn-danger"  name="uninstallHTTP">Uninstall</button></form></td>
+      </tr>
+    </tbody>
+  </table>
+
+{% endblock %}

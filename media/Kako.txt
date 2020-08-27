@@ -1,0 +1,197 @@
+2020-08-26 18:09:46,368 - 6226 - [INFO] Setting up a queue for results processing
+2020-08-26 18:09:46,375 - 6226 - [INFO] Setting up results processor
+2020-08-26 18:09:46,379 - 6226 - [INFO] Attempting to load simulations from ./sample/simulations/
+2020-08-26 18:09:46,380 - 6226 - [INFO] Loading simulation 1 of 11 from manifest: ./sample/simulations/008-Linux-uPnP.yaml
+2020-08-26 18:09:46,384 - 6229 - [INFO] Setting up File results / output processor
+2020-08-26 18:09:46,445 - 6226 - [INFO] Loading simulation 2 of 11 from manifest: ./sample/simulations/005-Huawei-uPnP.yaml
+2020-08-26 18:09:46,469 - 6226 - [INFO] Loading simulation 3 of 11 from manifest: ./sample/simulations/010-TPLink.yaml
+2020-08-26 18:09:46,484 - 6226 - [INFO] Loading simulation 4 of 11 from manifest: ./sample/simulations/009-Linksys.yaml
+2020-08-26 18:09:46,499 - 6226 - [INFO] Loading simulation 5 of 11 from manifest: ./sample/simulations/002-NetGear.yaml
+2020-08-26 18:09:46,532 - 6226 - [INFO] Loading simulation 6 of 11 from manifest: ./sample/simulations/000-LinuxTelnet.yaml
+2020-08-26 18:09:46,541 - 6226 - [INFO] Loading simulation 7 of 11 from manifest: ./sample/simulations/007-Generic-uPnP.yaml
+2020-08-26 18:09:46,557 - 6226 - [INFO] Loading simulation 8 of 11 from manifest: ./sample/simulations/006-Realtek-uPnP.yaml
+2020-08-26 18:09:46,581 - 6226 - [INFO] Loading simulation 9 of 11 from manifest: ./sample/simulations/004-Rompager.yaml
+2020-08-26 18:09:46,596 - 6226 - [INFO] Loading simulation 10 of 11 from manifest: ./sample/simulations/003-D-Link.yaml
+2020-08-26 18:09:46,626 - 6226 - [INFO] Loading simulation 11 of 11 from manifest: ./sample/simulations/001-CPEServer.yaml
+2020-08-26 18:09:46,643 - 6226 - [INFO] Starting simulation: Linux uPnP Simulation
+2020-08-26 18:09:46,653 - 6230 - [INFO] Setting up listener on TCP/49152
+2020-08-26 18:09:46,646 - 6226 - [INFO] Starting simulation: Huawei uPnP Simulation
+2020-08-26 18:09:46,657 - 6226 - [INFO] Starting simulation: TPLink HTTP Simulation
+2020-08-26 18:09:46,664 - 6231 - [INFO] Setting up listener on TCP/37215
+2020-08-26 18:09:46,667 - 6226 - [INFO] Starting simulation: Linksys HTTP Simulation
+2020-08-26 18:09:46,676 - 6232 - [INFO] Setting up listener on TCP/8081
+2020-08-26 18:09:46,679 - 6233 - [INFO] Setting up listener on TCP/10000
+2020-08-26 18:09:46,670 - 6226 - [INFO] Starting simulation: NetGear HTTPS Simulation
+2020-08-26 18:09:46,683 - 6226 - [INFO] Starting simulation: Linux Generic Telnet Simulation
+2020-08-26 18:09:46,692 - 6234 - [INFO] Setting up listener on tcp/8443
+2020-08-26 18:09:46,693 - 6234 - [INFO] Enabling SSL with certificate from /root/honeypot/kako/sample/simulations/routerlogin.pem
+2020-08-26 18:09:46,696 - 6235 - [INFO] Setting up listener on TCP/2323
+2020-08-26 18:09:46,686 - 6226 - [INFO] Starting simulation: Generic uPnP Simulation
+2020-08-26 18:09:46,704 - 6226 - [INFO] Starting simulation: Realtek uPnP Simulation
+2020-08-26 18:09:46,715 - 6226 - [INFO] Starting simulation: RomPager HTTP Simulation
+2020-08-26 18:09:46,710 - 6236 - [INFO] Setting up listener on TCP/1900
+2020-08-26 18:09:46,724 - 6238 - [INFO] Setting up listener on TCP/5555
+2020-08-26 18:09:46,727 - 6237 - [INFO] Setting up listener on TCP/52869
+2020-08-26 18:09:46,728 - 6226 - [INFO] Starting simulation: D-Link HTTP Simulation
+2020-08-26 18:09:46,731 - 6226 - [INFO] Starting simulation: CPEServer HTTP Simulation
+2020-08-26 18:09:46,740 - 6239 - [INFO] Setting up listener on TCP/8080
+2020-08-26 18:09:46,744 - 6240 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:09:46,750 - 6226 - [INFO] Monitoring enabled every 60 seconds
+2020-08-26 18:10:46,810 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:10:46,821 - 6251 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:11:33,799 - 6238 - [INFO] Received HTTP None for "NO_HTTP_PATH" from 185.39.11.105:48776. Responded with HTTP HTTPStatus.BAD_REQUEST.
+2020-08-26 18:11:46,870 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:11:46,881 - 6268 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:12:46,930 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:12:46,945 - 6295 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:13:46,998 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:13:47,010 - 6333 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:14:47,058 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:14:47,068 - 6352 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:15:47,118 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:15:47,129 - 6376 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:16:29,938 - 6238 - [INFO] Received HTTP None for "NO_HTTP_PATH" from 36.39.239.32:33867. Responded with HTTP HTTPStatus.BAD_REQUEST.
+2020-08-26 18:16:47,178 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:16:47,189 - 6398 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:17:47,238 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:17:47,249 - 6427 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:18:47,298 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:18:47,308 - 6450 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:19:41,749 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 18:19:41,749 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 18:19:41,750 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15267. Responded with HTTP 401.
+2020-08-26 18:19:47,358 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:19:47,369 - 6494 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:19:52,169 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 18:19:52,170 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15262. Responded with HTTP 401.
+2020-08-26 18:19:52,170 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 18:20:47,418 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:20:47,429 - 6512 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:21:47,478 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:21:47,489 - 6538 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:22:47,538 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:22:47,548 - 6558 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:22:51,192 - 6238 - [INFO] Received HTTP None for "NO_HTTP_PATH" from 216.218.206.68:50252. Responded with HTTP HTTPStatus.BAD_REQUEST.
+2020-08-26 18:23:47,598 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:23:47,609 - 6575 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:24:47,658 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:24:47,669 - 6592 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:25:47,719 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:25:47,729 - 6620 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:26:47,778 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:26:47,789 - 6641 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:27:47,839 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:27:47,849 - 6656 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:28:47,898 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:28:47,909 - 6680 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:29:47,958 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:29:47,969 - 6771 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:30:48,018 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:30:48,029 - 6859 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:31:48,078 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:31:48,089 - 6890 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:32:48,138 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:32:48,149 - 6905 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:33:48,198 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:33:48,209 - 6921 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:34:14,804 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 18:34:14,804 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15288. Responded with HTTP 401.
+2020-08-26 18:34:14,805 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 18:34:37,164 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 18:34:37,164 - 6239 - [INFO] Received HTTP GET for "/" from 164.68.112.178:42873. Responded with HTTP 401.
+2020-08-26 18:34:37,165 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 18:34:48,258 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:34:48,268 - 6944 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:35:48,318 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:35:48,329 - 6961 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:36:48,378 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:36:48,389 - 6978 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:37:48,438 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:37:48,449 - 7002 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:38:48,498 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:38:48,509 - 7020 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:39:48,558 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:39:48,565 - 7044 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:40:48,618 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:40:48,628 - 7070 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:40:50,622 - 6232 - [INFO] Received HTTP None for "NO_HTTP_PATH" from 192.241.239.138:46236. Responded with HTTP HTTPStatus.BAD_REQUEST.
+2020-08-26 18:41:48,678 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:41:48,688 - 7092 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:42:48,738 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:42:48,749 - 7109 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:43:48,798 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:43:48,809 - 7129 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:44:48,858 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:44:48,869 - 7147 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:45:48,918 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:45:48,928 - 7162 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:46:48,978 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:46:48,989 - 7181 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:47:49,040 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:47:49,048 - 7203 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:48:49,102 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:48:49,112 - 7222 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:49:49,162 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:49:49,173 - 7240 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:50:49,222 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:50:49,233 - 7259 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:50:51,293 - 6234 - [INFO] Publishing results from interaction to queue
+2020-08-26 18:50:51,293 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 18:50:51,294 - 6234 - [INFO] Received HTTP GET for "/" from 192.241.222.168:44562. Responded with HTTP 401.
+2020-08-26 18:51:49,282 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:51:49,293 - 7276 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:52:49,342 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:52:49,352 - 7293 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:53:49,402 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:53:49,413 - 7313 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:54:49,462 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:54:49,473 - 7341 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:54:51,983 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 18:54:51,983 - 6239 - [INFO] Received HTTP GET for "/manager/html" from 40.84.238.168:52942. Responded with HTTP 401.
+2020-08-26 18:54:51,983 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 18:55:17,831 - 6234 - [INFO] Publishing results from interaction to queue
+2020-08-26 18:55:17,831 - 6234 - [INFO] Received HTTP GET for "/" from 128.14.134.170:44522. Responded with HTTP 401.
+2020-08-26 18:55:17,832 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 18:55:49,522 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:55:49,533 - 7358 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:56:49,582 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:56:49,592 - 7387 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:57:49,642 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:57:49,653 - 7513 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:58:49,702 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:58:49,713 - 7528 - [INFO] Setting up listener on TCP/7547
+2020-08-26 18:59:49,762 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 18:59:49,773 - 7716 - [INFO] Setting up listener on TCP/7547
+2020-08-26 19:00:49,822 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 19:00:49,833 - 7742 - [INFO] Setting up listener on TCP/7547
+2020-08-26 19:01:49,882 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 19:01:49,892 - 7757 - [INFO] Setting up listener on TCP/7547
+2020-08-26 19:02:33,167 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 19:02:33,167 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15297. Responded with HTTP 401.
+2020-08-26 19:02:33,168 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 19:02:35,386 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 19:02:35,386 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15344. Responded with HTTP 401.
+2020-08-26 19:02:35,387 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 19:02:35,466 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 19:02:35,467 - 6239 - [INFO] Received HTTP GET for "/favicon.ico" from 37.228.243.64:15241. Responded with HTTP 401.
+2020-08-26 19:02:35,467 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 19:02:49,943 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 19:02:49,953 - 7942 - [INFO] Setting up listener on TCP/7547
+2020-08-26 19:03:50,004 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 19:03:50,013 - 7963 - [INFO] Setting up listener on TCP/7547
+2020-08-26 19:04:33,099 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 19:04:33,099 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15350. Responded with HTTP 401.
+2020-08-26 19:04:33,100 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 19:04:50,062 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 19:04:50,074 - 7982 - [INFO] Setting up listener on TCP/7547
+2020-08-26 19:05:50,123 - 6226 - [ERROR] simulation CPEServer HTTP Simulation has died, respawning
+2020-08-26 19:05:50,133 - 8000 - [INFO] Setting up listener on TCP/7547
+2020-08-26 19:06:21,684 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 19:06:21,684 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15280. Responded with HTTP 401.
+2020-08-26 19:06:21,684 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 19:06:24,040 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 19:06:24,041 - 6239 - [INFO] Received HTTP GET for "/" from 37.228.243.64:15291. Responded with HTTP 401.
+2020-08-26 19:06:24,041 - 6229 - [INFO] 1 interaction captures in the queue
+2020-08-26 19:06:24,136 - 6239 - [INFO] Publishing results from interaction to queue
+2020-08-26 19:06:24,136 - 6239 - [INFO] Received HTTP GET for "/favicon.ico" from 37.228.243.64:15332. Responded with HTTP 401.
+2020-08-26 19:06:24,136 - 6229 - [INFO] 1 interaction captures in the queue

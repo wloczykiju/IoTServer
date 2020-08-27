@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+  <h2 class="card-title">Honeypot App</h2>
+
+  <form method="post" action="{% url 'home' %}">
+    {% csrf_token %}
+    {{ form | crispy }}
+    <button type="submit" class="btn btn-outline-info">Submit</button>
+  </form>
+
+{% endblock %}
+

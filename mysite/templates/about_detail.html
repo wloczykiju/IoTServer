@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+ <!-- Displays details of each honeypot-->
+<h1>{{ about.name }}</h1>
+<div class="row">
+    <div class="col">
+        <img src="{% static about.image %}" alt="" width="100%">
+    </div>
+    <div class="col">
+        <h5>About the Honeypot:</h5>
+        <p>{{ about.description }}</p>
+        <br>
+        <h5>Technology used:</h5>
+        <p style="text-align: center"> {{ about.technology }}</p>
+    </div>
+</div>
+{% endblock %}
